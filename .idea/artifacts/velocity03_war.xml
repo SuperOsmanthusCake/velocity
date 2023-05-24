@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="velocity03:war">
+    <output-path>$PROJECT_DIR$/velocity03/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>velocity03</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="velocity03.war">
+      <element id="artifact" artifact-name="velocity03:war exploded" />
+    </root>
+  </artifact>
+</component>

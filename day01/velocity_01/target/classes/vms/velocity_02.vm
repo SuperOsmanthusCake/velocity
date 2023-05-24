@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    常规语法：$name1
+    正规语法：${name}
+## 以上两种，如果获取的变量不存在，那么原样表示，如果想展示为“”，可以使用$!变量名
+    常规语法：$!name1
+    正规语法：$!{name}
+
+</body>
+ 

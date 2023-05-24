@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+## #if指令
+    #if($!{user.name})
+        <h1>真</h1>
+    #else
+        <h1>假</h1>
+    #end
+
+## 对象属性引用
+    ${user.username}
+    ${user.password}
+    ${user.email.split(0)}
+
+## #set指令
+    #set($str="nihao")
+    #set($int=1)
+    #set($arr=[1,2,3])
+    #set($boolean=true)
+    #set($map={"key1":"value1","key2":"value2"})
+## 在声明数据的时候可以引用之前的变量
+    #set($name="zhangsan")
+    #set($str2="hello,how are you, ${name} !")
+## 获取set指令
+    ${str2}
+
+##
+</body>
